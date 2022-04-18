@@ -1,0 +1,56 @@
+body{
+  background-color:none
+}
+#Page{
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+.State{
+  width:300px;
+  gap:0px;
+}
+#DChart{
+  border-bottom: 1px solid gray;
+}
+#State_Summary{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+#Seleted_Waepon{
+  border-bottom: 1px solid gray;
+}
+#Defence{
+  border-bottom: 1px solid gray;
+}
+.SPW_Gr{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 0px;
+  padding: 10px;
+}
+.Weapon{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.Gear{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.Skill{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+.Box{
+  border: 1px solid gray
+}
